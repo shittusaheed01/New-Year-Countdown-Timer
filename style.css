@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap");
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(237, 18%, 59%);
+  background-color: hsl(234, 17%, 12%);
+  background-color: hsl(236, 21%, 26%);
+  background-color: hsl(235, 16%, 14%);
+  background-color: hsl(234, 17%, 12%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  background: url(./images/bg-stars.svg);
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: hsl(0, 0%, 100%);
+  font-family: "Red Hat Text", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  margin-top: 20px;
+}
+.content h1 {
+  /* border: 1px solid; */
+  font-size: 24px;
+  width: 80%;
+  letter-spacing: 6px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}
+#count {
+  margin-bottom: 40px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.text {
+  color: hsl(236, 21%, 26%);
+  color: hsl(237, 18%, 59%);
+  font-weight: 900;
+}
+.total {
+  background-color: black;
+  height: 100px;
+  min-width: 100px;
+  position: relative;
+  text-align: center;
+  border-radius: 7px;
+  margin: 10px;
+  box-shadow: 0 0 10px #aaa;
+}
+.number {
+  position: absolute;
+  left: 30px;
+  margin-top: -75%;
+  z-index: 1;
+  color: hsl(345, 95%, 68%);
+  font-weight: 700;
+  font-size: 35px;
+  opacity: 0.7;
+}
+#minutes {
+  left: 20px;
+}
+#second {
+  font-size: 32px;
+  left: 4px;
+  margin-top: -75%;
+}
+.first {
+  min-width: 100px;
+  min-height: 50px;
+  background-color: hsl(236, 21%, 26%);
+  display: flex;
+  align-items: flex-end;
+  border-radius: 7px;
+}
+.second {
+  min-width: 100px;
+  min-height: 50px;
+  background-color: hsl(235, 16%, 14%);
+  border-radius: 7px;
+}
+.footer {
+  background: url(./images/pattern-hills.svg);
+  height: 20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socials {
+  margin-bottom: 10px;
+}
+#facebook {
+  padding: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url(./images/icon-facebook.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+#facebook:hover {
+  background-image: url(./images/icon-facebook\ copy.svg);
+  transition: all ease 0.9s;
+}
+#instagram {
+  padding: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url(./images/icon-instagram.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+#instagram:hover {
+  background-image: url(./images/icon-instagram\ copy.svg);
+  transition: all ease 0.9s;
+}
+#pinterest {
+  padding: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url(./images/icon-pinterest.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+#pinterest:hover {
+  background-image: url(./images/icon-pinterest\ copy.svg);
+  transition: all ease 0.9s;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
